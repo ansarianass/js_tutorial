@@ -38,6 +38,28 @@ console.log(typeof(temp))//undefined
 /*****************************Case01************************************/
 //convert in number
 tempNum=Number(temp)
-console.log(tempNum)
-console.log(typeof(tempNum))
+console.log(tempNum)//NaN
+console.log(typeof(tempNum))//number
+
+
+/*****************************Boolean************************************/
+let LoggedIn=true
+console.log(LoggedIn);//true
+console.log(typeof(LoggedIn));//Boolean
+/*****************************Case01************************************/
+let LogNum=Number(LoggedIn)
+console.log(LogNum)//1
+console.log(typeof(LogNum))//number
+
+/*****************************NumberToString************************************/
+let value=123
+console.log("value:",typeof(value));//number
+let valStr=String(value)
+console.log(valStr);
+console.log(typeof(valStr))//string
+
+
+
+
+
 

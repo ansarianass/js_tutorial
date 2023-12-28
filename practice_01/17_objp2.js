@@ -12,3 +12,11 @@ console.log(tinderuser1);
 
 /***************************************************/ 
 // lets make object inside an object
+const regularuser={
+    fullname:{
+        firstname:"Anas",
+        lastname:"Ansari"
+    },
+    age:18
+}
+console.log(regularuser);

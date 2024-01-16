@@ -97,6 +97,8 @@ for (let index = 0; index < MyArray.length; index++) {
 */
 /************************************************************************/
 //Break And Continue 
+// break
+/*
 for (let index = 1; index <=20; index++) {
     if(index==10){
         console.log('10 detected ');
@@ -105,3 +107,18 @@ for (let index = 1; index <=20; index++) {
     const element =index;
     console.log(`value of index is${index}`);
 }
+*/
+//continue
+/*
+for (let index = 1; index <=20; index++) {
+    if(index==10){
+        console.log('10 detected ');
+        continue;
+    }
+    const element =index;
+    console.log(`value of index is${index}`);
+    //continue skip that point where it placed and print further action 
+    // as here 10 not printed 
+}
+*/
+
